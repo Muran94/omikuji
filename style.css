@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'japanese-traditional';
+  src: url('AoyagiKouzanTOTF.otf');
+}
+body {
+  background: #efefef;
+  font-family: 'japanese-traditional';
+  text-align: center;
+}
+#result {
+  margin: 30px auto;
+  width: 300px;
+  height: 200px;
+  line-height: 200px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 2px 4px 3px 7px;
+  font-size: 30px;
+}
+#btn {
+  margin: 0 auto;
+  width: 300px;
+  padding: 7px;
+  color: #fff;
+  background: #0af;
+  border-radius: 2px;
+  font-size: 24px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+#btn:hover {
+  opacity: 0.9;
+}
+#btn.pushed {
+  margin-top: 36px;
+  box-shadow: 0 4px 0 #d1483e;
+}
